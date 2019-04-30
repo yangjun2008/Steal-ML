@@ -9,7 +9,7 @@ try:
 except:
     plt = None 
     pass
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, StandardScaler, LabelEncoder
 from scipy.spatial.distance import cdist, pdist, squareform
 from PIL import Image

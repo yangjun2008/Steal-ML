@@ -1,0 +1,91 @@
+training accuracy: 1.0
+Counter({1: 4208, 0: 3916})
+dataset,method,budget,mode,loss,loss_u,probas,probas_u,model l1
+mushrooms,binary,56,extr,6.14e-02,2.51e-01,8.49e-02,2.30e-01,4.18e+01
+mushrooms,lowd-meek,56,base,5.18e-01,4.97e-01,4.98e-01,3.82e-01,5.05e+01
+mushrooms,binary,113,extr,0.00e+00,0.00e+00,8.68e-14,2.26e-12,5.02e-10
+mushrooms,lowd-meek,113,base,5.18e-01,4.97e-01,4.98e-01,3.82e-01,5.05e+01
+mushrooms,binary,226,extr,0.00e+00,0.00e+00,3.68e-17,1.53e-15,3.44e-13
+mushrooms,lowd-meek,226,base,5.18e-01,4.97e-01,4.98e-01,3.82e-01,5.05e+01
+mushrooms,binary,565,extr,0.00e+00,0.00e+00,2.99e-15,8.30e-14,1.99e-11
+mushrooms,lowd-meek,565,base,5.18e-01,4.97e-01,4.98e-01,3.82e-01,5.05e+01
+mushrooms,binary,1130,extr,0.00e+00,0.00e+00,4.30e-15,5.93e-14,1.42e-11
+mushrooms,lowd-meek,1130,base,5.18e-01,4.97e-01,4.98e-01,3.82e-01,5.05e+01
+mushrooms,binary,2260,extr,0.00e+00,0.00e+00,1.07e-15,3.06e-14,6.90e-12
+mushrooms,lowd-meek,2260,base,0.00e+00,4.20e-04,2.21e-03,8.99e-02,1.71e+02
+mushrooms,binary,5650,extr,0.00e+00,0.00e+00,3.16e-15,6.53e-14,1.63e-11
+mushrooms,lowd-meek,5650,base,0.00e+00,0.00e+00,2.17e-03,6.36e-02,6.36e+01
+mushrooms,binary,11300,extr,0.00e+00,0.00e+00,6.65e-16,2.48e-14,6.09e-12
+mushrooms,lowd-meek,11300,base,0.00e+00,0.00e+00,3.37e-02,1.04e-01,2.75e+01
+finding solution of system of 56 equations with 113 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 16.244531
+         Iterations: 100
+         Function evaluations: 104
+         Gradient evaluations: 104
+obtained train accuracy of 1.0
+mushrooms,passive,56,extr,3.89e-02,1.98e-01,6.91e-02,1.82e-01,3.81e+01
+mushrooms,passive,56,base,3.83e-01,3.41e-01,3.83e-01,3.43e-01,2.64e+02
+finding solution of system of 113 equations with 113 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 28.612681
+         Iterations: 100
+         Function evaluations: 103
+         Gradient evaluations: 103
+obtained train accuracy of 1.0
+mushrooms,passive,113,extr,1.23e-03,7.84e-02,5.25e-03,7.29e-02,1.60e+01
+mushrooms,passive,113,base,1.87e-01,2.76e-01,1.88e-01,2.88e-01,3.94e+02
+finding solution of system of 226 equations with 113 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 52.482112
+         Iterations: 91
+         Function evaluations: 100
+         Gradient evaluations: 100
+obtained train accuracy of 1.0
+mushrooms,passive,226,extr,0.00e+00,0.00e+00,2.87e-09,1.03e-07,2.28e-05
+mushrooms,passive,226,base,4.26e-02,1.74e-01,4.38e-02,2.03e-01,7.24e+02
+finding solution of system of 565 equations with 113 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 145.508260
+         Iterations: 100
+         Function evaluations: 111
+         Gradient evaluations: 111
+obtained train accuracy of 1.0
+mushrooms,passive,565,extr,0.00e+00,0.00e+00,7.71e-10,1.35e-08,2.78e-06
+mushrooms,passive,565,base,0.00e+00,8.37e-02,2.22e-03,1.41e-01,1.52e+03
+finding solution of system of 1130 equations with 113 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 316.366751
+         Iterations: 100
+         Function evaluations: 133
+         Gradient evaluations: 133
+obtained train accuracy of 1.0
+mushrooms,passive,1130,extr,0.00e+00,0.00e+00,2.42e-08,6.84e-07,1.35e-04
+mushrooms,passive,1130,base,0.00e+00,4.70e-02,2.22e-03,1.26e-01,3.08e+03
+finding solution of system of 2260 equations with 113 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 638.325819
+         Iterations: 100
+         Function evaluations: 131
+         Gradient evaluations: 131
+obtained train accuracy of 1.0
+mushrooms,passive,2260,extr,0.00e+00,3.00e-05,1.16e-06,4.04e-05,9.48e-03
+mushrooms,passive,2260,base,0.00e+00,2.38e-02,2.22e-03,1.19e-01,5.89e+03
+finding solution of system of 5650 equations with 113 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 1524.076585
+         Iterations: 100
+         Function evaluations: 167
+         Gradient evaluations: 167
+obtained train accuracy of 1.0
+mushrooms,passive,5650,extr,0.00e+00,1.00e-05,3.30e-07,1.26e-05,2.88e-03
+mushrooms,passive,5650,base,0.00e+00,7.82e-03,2.22e-03,1.18e-01,2.26e+04
+finding solution of system of 11300 equations with 113 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 3054.407538
+         Iterations: 100
+         Function evaluations: 168
+         Gradient evaluations: 168
+obtained train accuracy of 0.999911504425
+mushrooms,passive,11300,extr,0.00e+00,1.60e-04,5.79e-06,1.66e-04,4.31e-02
+mushrooms,passive,11300,base,0.00e+00,4.24e-03,2.22e-03,1.18e-01,3.18e+04

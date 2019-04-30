@@ -1,0 +1,124 @@
+training accuracy: 0.456193353474
+Counter({2: 182, 0: 130, 1: 17, 4: 2})
+dataset,method,budget,mode,loss,loss_u,probas,probas_u,model l1
+finding solution of system of 102 equations with 205 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 154.900288
+         Iterations: 94
+         Function evaluations: 98
+         Gradient evaluations: 98
+obtained train accuracy of 1.0
+steak,passive,102,extr,0.00e+00,0.00e+00,2.78e-06,1.66e-06,1.26e-03
+steak,passive,102,base,3.32e-01,4.14e-01,4.45e-01,7.21e-01,2.95e+03
+finding solution of system of 205 equations with 205 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 311.424103
+         Iterations: 77
+         Function evaluations: 89
+         Gradient evaluations: 89
+obtained train accuracy of 1.0
+steak,passive,205,extr,0.00e+00,0.00e+00,2.33e-07,1.83e-07,1.34e-04
+steak,passive,205,base,4.26e-01,3.40e-01,6.16e-01,7.44e-01,1.23e+04
+finding solution of system of 410 equations with 205 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 622.115654
+         Iterations: 66
+         Function evaluations: 91
+         Gradient evaluations: 91
+obtained train accuracy of 1.0
+steak,passive,410,extr,0.00e+00,0.00e+00,7.50e-08,4.22e-08,2.18e-05
+steak,passive,410,base,1.54e-01,2.17e-01,3.46e-01,6.74e-01,5.69e+04
+finding solution of system of 1025 equations with 205 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 1559.928902
+         Iterations: 86
+         Function evaluations: 122
+         Gradient evaluations: 122
+obtained train accuracy of 1.0
+steak,passive,1025,extr,0.00e+00,0.00e+00,1.25e-08,6.66e-09,2.03e-06
+steak,passive,1025,base,8.76e-02,1.24e-01,4.03e-01,6.26e-01,2.56e+02
+finding solution of system of 2050 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 3118.085599
+         Iterations: 100
+         Function evaluations: 131
+         Gradient evaluations: 131
+obtained train accuracy of 1.0
+steak,passive,2050,extr,0.00e+00,0.00e+00,2.59e-06,1.21e-06,3.16e-04
+steak,passive,2050,base,5.74e-02,8.05e-02,3.98e-01,6.01e-01,2.26e+02
+finding solution of system of 4100 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 6226.542324
+         Iterations: 100
+         Function evaluations: 128
+         Gradient evaluations: 128
+obtained train accuracy of 0.996829268293
+steak,passive,4100,extr,0.00e+00,1.99e-03,1.07e-03,5.16e-04,2.37e-01
+steak,passive,4100,base,6.04e-02,7.85e-02,4.05e-01,6.04e-01,2.19e+02
+finding solution of system of 10250 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 15585.510596
+         Iterations: 100
+         Function evaluations: 142
+         Gradient evaluations: 142
+obtained train accuracy of 0.993853658537
+steak,passive,10250,extr,0.00e+00,8.07e-03,4.29e-03,1.94e-03,5.70e-01
+steak,passive,10250,base,5.14e-02,6.18e-02,4.06e-01,6.02e-01,2.20e+02
+finding solution of system of 20500 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 31168.673357
+         Iterations: 100
+         Function evaluations: 147
+         Gradient evaluations: 147
+obtained train accuracy of 0.982975609756
+finding solution of system of 20500 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 31168.673357
+         Iterations: 100
+         Function evaluations: 147
+         Gradient evaluations: 147
+obtained train accuracy of 0.982975609756
+finding solution of system of 20500 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 31168.673356
+         Iterations: 100
+         Function evaluations: 147
+         Gradient evaluations: 147
+obtained train accuracy of 0.982975609756
+finding solution of system of 20500 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 31168.673356
+         Iterations: 100
+         Function evaluations: 147
+         Gradient evaluations: 147
+obtained train accuracy of 0.982975609756
+finding solution of system of 20500 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 31168.673356
+         Iterations: 100
+         Function evaluations: 147
+         Gradient evaluations: 147
+obtained train accuracy of 0.982975609756
+finding solution of system of 20500 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 31168.673356
+         Iterations: 100
+         Function evaluations: 147
+         Gradient evaluations: 147
+obtained train accuracy of 0.982975609756
+finding solution of system of 20500 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 31168.673357
+         Iterations: 100
+         Function evaluations: 147
+         Gradient evaluations: 147
+obtained train accuracy of 0.982975609756
+finding solution of system of 20500 equations with 205 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 31168.673356
+         Iterations: 100
+         Function evaluations: 147
+         Gradient evaluations: 147
+obtained train accuracy of 0.982975609756
+steak,passive,20500,extr,3.02e-03,1.55e-02,5.68e-03,3.65e-03,1.42e+00
+steak,passive,20500,base,4.23e-02,5.53e-02,4.05e-01,6.00e-01,2.18e+02

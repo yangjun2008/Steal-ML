@@ -1,0 +1,91 @@
+training accuracy: 0.9625
+Counter({0: 227, 1: 173})
+dataset,method,budget,mode,loss,loss_u,probas,probas_u,model l1
+cancer,binary,5,extr,5.80e-01,2.09e-01,4.82e-01,1.90e-01,9.25e+00
+cancer,lowd-meek,5,base,4.32e-01,8.26e-01,4.49e-01,3.27e-01,1.03e+01
+cancer,binary,11,extr,0.00e+00,0.00e+00,2.50e-16,8.09e-16,3.53e-14
+cancer,lowd-meek,11,base,4.32e-01,8.26e-01,4.49e-01,3.27e-01,1.03e+01
+cancer,binary,22,extr,0.00e+00,0.00e+00,1.02e-16,2.62e-16,1.32e-14
+cancer,lowd-meek,22,base,4.32e-01,8.26e-01,4.49e-01,3.27e-01,1.03e+01
+cancer,binary,55,extr,0.00e+00,0.00e+00,1.99e-16,3.85e-16,2.38e-14
+cancer,lowd-meek,55,base,4.32e-01,8.26e-01,4.49e-01,3.27e-01,1.03e+01
+cancer,binary,110,extr,0.00e+00,0.00e+00,7.90e-17,1.99e-16,9.68e-15
+cancer,lowd-meek,110,base,4.32e-01,8.26e-01,4.49e-01,3.27e-01,1.03e+01
+cancer,binary,220,extr,0.00e+00,0.00e+00,5.26e-17,1.57e-16,7.76e-15
+cancer,lowd-meek,220,base,0.00e+00,5.80e-04,6.99e-02,8.81e-02,4.49e+00
+cancer,binary,550,extr,0.00e+00,0.00e+00,2.35e-16,4.97e-16,2.38e-14
+cancer,lowd-meek,550,base,0.00e+00,0.00e+00,1.33e-02,2.79e-02,2.38e+00
+cancer,binary,1100,extr,0.00e+00,0.00e+00,3.22e-16,1.05e-15,1.51e-14
+cancer,lowd-meek,1100,base,0.00e+00,0.00e+00,8.58e-02,1.03e-01,5.01e+00
+finding solution of system of 5 equations with 11 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 1.915998
+         Iterations: 16
+         Function evaluations: 17
+         Gradient evaluations: 17
+obtained train accuracy of 1.0
+cancer,passive,5,extr,3.75e-02,1.78e-01,1.10e-01,1.57e-01,6.94e+00
+cancer,passive,5,base,6.30e-01,2.99e-01,6.35e-01,3.17e-01,5.95e+01
+finding solution of system of 11 equations with 11 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 4.516248
+         Iterations: 59
+         Function evaluations: 60
+         Gradient evaluations: 60
+obtained train accuracy of 1.0
+cancer,passive,11,extr,0.00e+00,7.60e-04,1.98e-04,6.30e-04,2.80e-02
+cancer,passive,11,base,7.25e-02,2.32e-01,9.95e-02,2.73e-01,1.21e+02
+finding solution of system of 22 equations with 11 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 7.868041
+         Iterations: 25
+         Function evaluations: 27
+         Gradient evaluations: 27
+obtained train accuracy of 1.0
+cancer,passive,22,extr,0.00e+00,0.00e+00,1.40e-07,1.61e-07,7.29e-06
+cancer,passive,22,base,2.00e-02,1.40e-01,5.87e-02,2.13e-01,2.60e+02
+finding solution of system of 55 equations with 11 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 21.468789
+         Iterations: 18
+         Function evaluations: 20
+         Gradient evaluations: 20
+obtained train accuracy of 1.0
+cancer,passive,55,extr,0.00e+00,0.00e+00,5.47e-09,1.38e-08,5.89e-07
+cancer,passive,55,base,5.00e-03,5.19e-02,5.10e-02,1.76e-01,4.28e+02
+finding solution of system of 110 equations with 11 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 49.551629
+         Iterations: 20
+         Function evaluations: 27
+         Gradient evaluations: 27
+obtained train accuracy of 1.0
+cancer,passive,110,extr,0.00e+00,0.00e+00,1.55e-11,4.20e-11,2.06e-09
+cancer,passive,110,base,7.50e-03,2.92e-02,5.13e-02,1.72e-01,7.80e+02
+finding solution of system of 220 equations with 11 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 86.692013
+         Iterations: 22
+         Function evaluations: 29
+         Gradient evaluations: 29
+obtained train accuracy of 1.0
+cancer,passive,220,extr,0.00e+00,0.00e+00,8.58e-10,2.71e-09,1.43e-07
+cancer,passive,220,base,7.50e-03,8.53e-03,5.12e-02,1.72e-01,2.76e+03
+finding solution of system of 550 equations with 11 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 209.502550
+         Iterations: 25
+         Function evaluations: 32
+         Gradient evaluations: 32
+obtained train accuracy of 1.0
+cancer,passive,550,extr,0.00e+00,0.00e+00,6.71e-10,1.64e-09,7.05e-08
+cancer,passive,550,base,0.00e+00,1.58e-02,5.08e-02,1.72e-01,1.99e+03
+finding solution of system of 1100 equations with 11 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 420.748441
+         Iterations: 25
+         Function evaluations: 34
+         Gradient evaluations: 34
+obtained train accuracy of 1.0
+cancer,passive,1100,extr,0.00e+00,0.00e+00,7.78e-10,1.06e-09,5.24e-08
+cancer,passive,1100,base,5.00e-03,5.92e-03,4.97e-02,1.72e-01,5.20e+03

@@ -1,0 +1,75 @@
+training accuracy: 0.946666666667
+Counter({0: 50, 1: 50, 2: 50})
+dataset,method,budget,mode,loss,loss_u,probas,probas_u,model l1
+finding solution of system of 7 equations with 15 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 5.328967
+         Iterations: 25
+         Function evaluations: 26
+         Gradient evaluations: 26
+obtained train accuracy of 1.0
+iris,passive,7,extr,0.00e+00,0.00e+00,6.30e-08,1.11e-07,1.06e-05
+iris,passive,7,base,3.33e-01,4.45e-01,9.54e-01,7.97e-01,2.12e+01
+finding solution of system of 15 equations with 15 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 9.369076
+         Iterations: 19
+         Function evaluations: 21
+         Gradient evaluations: 21
+obtained train accuracy of 1.0
+iris,passive,15,extr,0.00e+00,0.00e+00,8.38e-08,1.43e-07,7.33e-06
+iris,passive,15,base,6.67e-03,1.47e-01,9.11e-01,8.17e-01,6.56e+02
+finding solution of system of 30 equations with 15 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 18.282888
+         Iterations: 17
+         Function evaluations: 18
+         Gradient evaluations: 18
+obtained train accuracy of 1.0
+iris,passive,30,extr,0.00e+00,0.00e+00,1.10e-08,2.45e-08,1.52e-06
+iris,passive,30,base,9.33e-02,1.39e-01,8.58e-01,8.10e-01,8.89e+02
+finding solution of system of 75 equations with 15 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 47.083460
+         Iterations: 22
+         Function evaluations: 29
+         Gradient evaluations: 29
+obtained train accuracy of 1.0
+iris,passive,75,extr,0.00e+00,0.00e+00,1.71e-08,2.95e-08,1.93e-06
+iris,passive,75,base,6.67e-03,3.07e-02,9.12e-01,8.55e-01,4.11e+03
+finding solution of system of 150 equations with 15 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 97.475622
+         Iterations: 22
+         Function evaluations: 29
+         Gradient evaluations: 29
+obtained train accuracy of 1.0
+iris,passive,150,extr,0.00e+00,0.00e+00,2.47e-09,3.92e-09,1.21e-07
+iris,passive,150,base,0.00e+00,2.39e-02,9.15e-01,8.51e-01,4.84e+03
+finding solution of system of 300 equations with 15 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 201.302338
+         Iterations: 25
+         Function evaluations: 29
+         Gradient evaluations: 29
+obtained train accuracy of 1.0
+iris,passive,300,extr,0.00e+00,0.00e+00,1.11e-09,1.20e-09,1.14e-07
+iris,passive,300,base,0.00e+00,5.08e-03,9.14e-01,8.50e-01,6.97e+03
+finding solution of system of 750 equations with 15 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 477.708278
+         Iterations: 30
+         Function evaluations: 39
+         Gradient evaluations: 39
+obtained train accuracy of 1.0
+iris,passive,750,extr,0.00e+00,0.00e+00,7.66e-10,1.18e-09,7.27e-08
+iris,passive,750,base,0.00e+00,5.30e-03,9.15e-01,8.51e-01,3.45e+04
+finding solution of system of 1500 equations with 15 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 966.620879
+         Iterations: 30
+         Function evaluations: 36
+         Gradient evaluations: 36
+obtained train accuracy of 1.0
+iris,passive,1500,extr,0.00e+00,0.00e+00,1.88e-10,3.99e-10,2.38e-08
+iris,passive,1500,base,0.00e+00,3.11e-03,9.15e-01,8.52e-01,7.51e+04

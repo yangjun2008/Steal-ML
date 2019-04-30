@@ -1,0 +1,77 @@
+training accuracy: 0.8566
+Counter({1: 2509, 0: 2491})
+dataset,method,budget,mode,loss,loss_u,probas,probas_u,model l1
+moons,binary,1,extr,5.02e-01,4.79e-01,4.11e-01,3.70e-01,9.43e+00
+moons,lowd-meek,1,base,5.02e-01,4.85e-01,3.61e-01,3.83e-01,8.81e+00
+moons,binary,3,extr,0.00e+00,0.00e+00,1.56e-17,1.94e-17,4.72e-16
+moons,lowd-meek,3,base,5.02e-01,4.85e-01,3.61e-01,3.83e-01,8.81e+00
+moons,binary,6,extr,0.00e+00,0.00e+00,2.15e-16,3.13e-16,1.17e-14
+moons,lowd-meek,6,base,5.02e-01,4.85e-01,3.61e-01,3.83e-01,8.81e+00
+moons,binary,15,extr,0.00e+00,0.00e+00,1.20e-15,9.85e-16,5.93e-14
+moons,lowd-meek,15,base,5.02e-01,4.85e-01,3.61e-01,3.83e-01,8.81e+00
+moons,binary,30,extr,0.00e+00,0.00e+00,1.21e-16,9.50e-17,7.74e-15
+moons,lowd-meek,30,base,8.60e-03,7.70e-03,2.59e-01,2.55e-01,7.32e+00
+moons,binary,60,extr,0.00e+00,0.00e+00,5.26e-16,4.34e-16,2.60e-14
+moons,lowd-meek,60,base,0.00e+00,0.00e+00,2.59e-01,2.55e-01,7.30e+00
+moons,binary,150,extr,0.00e+00,0.00e+00,2.05e-16,1.68e-16,1.05e-14
+moons,lowd-meek,150,base,0.00e+00,0.00e+00,1.67e-01,1.51e-01,5.68e+00
+moons,binary,300,extr,0.00e+00,0.00e+00,5.65e-17,8.63e-17,3.30e-15
+moons,lowd-meek,300,base,0.00e+00,0.00e+00,1.67e-01,1.51e-01,5.68e+00
+moons,passive,1,extr,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+moons,passive,1,base,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+moons,passive,3,extr,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+moons,passive,3,base,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+finding solution of system of 6 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 1.494572
+         Iterations: 19
+         Function evaluations: 20
+         Gradient evaluations: 20
+obtained train accuracy of 1.0
+moons,passive,6,extr,0.00e+00,0.00e+00,5.09e-08,4.37e-08,2.70e-06
+moons,passive,6,base,2.39e-01,1.82e-01,2.51e-01,1.95e-01,1.07e+02
+finding solution of system of 15 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 3.364381
+         Iterations: 14
+         Function evaluations: 15
+         Gradient evaluations: 15
+obtained train accuracy of 1.0
+moons,passive,15,extr,0.00e+00,0.00e+00,3.11e-08,2.41e-08,2.00e-06
+moons,passive,15,base,2.80e-01,2.08e-01,3.01e-01,2.36e-01,6.10e+02
+finding solution of system of 30 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 8.696081
+         Iterations: 14
+         Function evaluations: 15
+         Gradient evaluations: 15
+obtained train accuracy of 1.0
+moons,passive,30,extr,0.00e+00,0.00e+00,1.98e-08,1.67e-08,5.85e-07
+moons,passive,30,base,1.20e-02,1.47e-02,1.34e-01,1.14e-01,2.54e+02
+finding solution of system of 60 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 15.918936
+         Iterations: 16
+         Function evaluations: 18
+         Gradient evaluations: 18
+obtained train accuracy of 1.0
+moons,passive,60,extr,0.00e+00,0.00e+00,3.36e-08,2.68e-08,2.01e-06
+moons,passive,60,base,9.20e-03,8.00e-03,1.35e-01,1.14e-01,3.15e+02
+finding solution of system of 150 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 44.215729
+         Iterations: 17
+         Function evaluations: 19
+         Gradient evaluations: 19
+obtained train accuracy of 1.0
+moons,passive,150,extr,0.00e+00,0.00e+00,7.57e-09,6.91e-09,2.32e-07
+moons,passive,150,base,5.20e-03,7.12e-03,1.38e-01,1.16e-01,1.42e+03
+finding solution of system of 300 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 91.617267
+         Iterations: 16
+         Function evaluations: 18
+         Gradient evaluations: 18
+obtained train accuracy of 1.0
+moons,passive,300,extr,0.00e+00,0.00e+00,9.74e-10,8.00e-10,5.59e-08
+moons,passive,300,base,6.60e-03,7.06e-03,1.38e-01,1.17e-01,2.44e+03

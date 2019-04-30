@@ -1,0 +1,173 @@
+training accuracy: 0.988313856427
+Counter({1: 183, 3: 182, 4: 182, 6: 182, 5: 181, 9: 181, 0: 178, 7: 178, 2: 177, 8: 173})
+dataset,method,budget,mode,loss,loss_u,probas,probas_u,model l1
+finding solution of system of 325 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 279.511480
+         Iterations: 100
+         Function evaluations: 102
+         Gradient evaluations: 102
+obtained train accuracy of 1.0
+digits,passive,325,extr,0.00e+00,3.00e-05,4.66e-05,3.74e-05,4.31e-02
+digits,passive,325,base,3.78e-01,3.33e-01,8.82e-01,9.25e-01,3.01e+03
+finding solution of system of 650 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 567.917321
+         Iterations: 100
+         Function evaluations: 103
+         Gradient evaluations: 103
+obtained train accuracy of 1.0
+digits,passive,650,extr,0.00e+00,4.00e-05,7.38e-06,1.89e-05,1.81e-02
+digits,passive,650,base,2.54e-01,2.27e-01,8.94e-01,9.29e-01,5.91e+03
+finding solution of system of 1300 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 1159.972144
+         Iterations: 100
+         Function evaluations: 105
+         Gradient evaluations: 105
+obtained train accuracy of 1.0
+digits,passive,1300,extr,0.00e+00,2.00e-04,1.26e-04,1.38e-04,2.12e-01
+digits,passive,1300,base,1.34e-01,1.62e-01,9.02e-01,9.29e-01,1.10e+04
+finding solution of system of 3250 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 2911.188191
+         Iterations: 100
+         Function evaluations: 106
+         Gradient evaluations: 106
+obtained train accuracy of 0.997846153846
+digits,passive,3250,extr,0.00e+00,2.83e-03,1.15e-03,2.56e-03,3.84e+00
+digits,passive,3250,base,5.73e-02,8.61e-02,9.01e-01,9.27e-01,2.80e+04
+finding solution of system of 6500 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 5746.205527
+         Iterations: 100
+         Function evaluations: 116
+         Gradient evaluations: 116
+obtained train accuracy of 0.994923076923
+digits,passive,6500,extr,1.11e-03,6.79e-03,5.01e-03,7.69e-03,1.03e+01
+digits,passive,6500,base,2.89e-02,4.93e-02,9.00e-01,9.29e-01,7.73e+04
+finding solution of system of 13000 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 11564.389766
+         Iterations: 100
+         Function evaluations: 122
+         Gradient evaluations: 122
+obtained train accuracy of 0.990692307692
+digits,passive,13000,extr,4.45e-03,1.01e-02,1.51e-02,1.12e-02,1.71e+01
+digits,passive,13000,base,1.45e-02,3.33e-02,9.01e-01,9.29e-01,2.19e+05
+finding solution of system of 32500 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 28925.734990
+         Iterations: 100
+         Function evaluations: 127
+         Gradient evaluations: 127
+obtained train accuracy of 0.985846153846
+finding solution of system of 32500 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 28925.736556
+         Iterations: 100
+         Function evaluations: 127
+         Gradient evaluations: 127
+obtained train accuracy of 0.985846153846
+finding solution of system of 32500 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 28925.735318
+         Iterations: 100
+         Function evaluations: 127
+         Gradient evaluations: 127
+obtained train accuracy of 0.985846153846
+finding solution of system of 32500 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 28925.734251
+         Iterations: 100
+         Function evaluations: 127
+         Gradient evaluations: 127
+obtained train accuracy of 0.985846153846
+finding solution of system of 32500 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 28925.736762
+         Iterations: 100
+         Function evaluations: 127
+         Gradient evaluations: 127
+obtained train accuracy of 0.985846153846
+finding solution of system of 32500 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 28925.736064
+         Iterations: 100
+         Function evaluations: 127
+         Gradient evaluations: 127
+obtained train accuracy of 0.985846153846
+finding solution of system of 32500 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 28925.735784
+         Iterations: 100
+         Function evaluations: 127
+         Gradient evaluations: 127
+obtained train accuracy of 0.985846153846
+finding solution of system of 32500 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 28925.732933
+         Iterations: 100
+         Function evaluations: 127
+         Gradient evaluations: 127
+obtained train accuracy of 0.985846153846
+digits,passive,32500,extr,5.56e-03,1.48e-02,1.81e-02,1.58e-02,2.35e+01
+digits,passive,32500,base,1.67e-03,1.29e-02,9.01e-01,9.29e-01,5.31e+05
+finding solution of system of 65000 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 58171.783510
+         Iterations: 100
+         Function evaluations: 137
+         Gradient evaluations: 137
+obtained train accuracy of 0.978661538462
+finding solution of system of 65000 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 58171.781725
+         Iterations: 100
+         Function evaluations: 137
+         Gradient evaluations: 137
+obtained train accuracy of 0.978661538462
+finding solution of system of 65000 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 58171.783261
+         Iterations: 100
+         Function evaluations: 137
+         Gradient evaluations: 137
+obtained train accuracy of 0.978661538462
+finding solution of system of 65000 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 58171.785446
+         Iterations: 100
+         Function evaluations: 137
+         Gradient evaluations: 137
+obtained train accuracy of 0.978661538462
+finding solution of system of 65000 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 58171.782324
+         Iterations: 100
+         Function evaluations: 137
+         Gradient evaluations: 137
+obtained train accuracy of 0.978661538462
+finding solution of system of 65000 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 58171.783426
+         Iterations: 100
+         Function evaluations: 137
+         Gradient evaluations: 137
+obtained train accuracy of 0.978661538462
+finding solution of system of 65000 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 58171.787017
+         Iterations: 100
+         Function evaluations: 137
+         Gradient evaluations: 137
+obtained train accuracy of 0.978661538462
+finding solution of system of 65000 equations with 650 unknowns with BFGS
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 58171.782320
+         Iterations: 100
+         Function evaluations: 137
+         Gradient evaluations: 137
+obtained train accuracy of 0.978661538462
+digits,passive,65000,extr,5.56e-03,2.29e-02,1.72e-02,2.26e-02,2.92e+01
+digits,passive,65000,base,1.67e-03,6.09e-03,9.01e-01,9.29e-01,1.19e+06

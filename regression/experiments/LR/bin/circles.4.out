@@ -1,0 +1,77 @@
+training accuracy: 0.4408
+Counter({0: 3306, 1: 1694})
+dataset,method,budget,mode,loss,loss_u,probas,probas_u,model l1
+circles,binary,1,extr,3.39e-01,3.36e-01,6.78e-03,7.57e-03,9.76e-02
+circles,lowd-meek,1,base,3.39e-01,3.26e-01,7.09e-03,7.91e-03,1.02e-01
+circles,binary,3,extr,0.00e+00,0.00e+00,1.13e-16,1.22e-16,1.47e-15
+circles,lowd-meek,3,base,3.39e-01,3.26e-01,7.09e-03,7.91e-03,1.02e-01
+circles,binary,6,extr,0.00e+00,0.00e+00,1.83e-17,1.91e-17,1.98e-16
+circles,lowd-meek,6,base,3.39e-01,3.26e-01,7.09e-03,7.91e-03,1.02e-01
+circles,binary,15,extr,0.00e+00,0.00e+00,9.40e-18,1.08e-17,1.21e-16
+circles,lowd-meek,15,base,3.39e-01,3.26e-01,7.09e-03,7.91e-03,1.02e-01
+circles,binary,30,extr,0.00e+00,0.00e+00,1.72e-17,2.16e-17,1.84e-16
+circles,lowd-meek,30,base,9.40e-03,6.79e-03,1.34e-01,1.46e-01,2.08e+00
+circles,binary,60,extr,0.00e+00,0.00e+00,2.81e-18,3.61e-18,3.82e-17
+circles,lowd-meek,60,base,0.00e+00,0.00e+00,1.35e-01,1.48e-01,2.09e+00
+circles,binary,150,extr,0.00e+00,0.00e+00,4.89e-18,5.09e-18,6.25e-17
+circles,lowd-meek,150,base,0.00e+00,0.00e+00,1.35e-01,1.48e-01,2.09e+00
+circles,binary,300,extr,0.00e+00,0.00e+00,8.55e-18,8.88e-18,8.67e-17
+circles,lowd-meek,300,base,0.00e+00,0.00e+00,1.35e-01,1.48e-01,2.09e+00
+circles,passive,1,extr,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+circles,passive,1,base,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+circles,passive,3,extr,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+circles,passive,3,base,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+finding solution of system of 6 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 4.157667
+         Iterations: 7
+         Function evaluations: 8
+         Gradient evaluations: 8
+obtained train accuracy of 1.0
+circles,passive,6,extr,0.00e+00,1.00e-05,6.23e-08,7.10e-08,8.20e-07
+circles,passive,6,base,2.13e-01,1.63e-01,4.83e-01,4.76e-01,6.71e+01
+finding solution of system of 15 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 10.393767
+         Iterations: 5
+         Function evaluations: 7
+         Gradient evaluations: 7
+obtained train accuracy of 1.0
+circles,passive,15,extr,0.00e+00,0.00e+00,5.46e-11,6.09e-11,7.69e-10
+circles,passive,15,base,1.80e-01,1.71e-01,4.87e-01,4.88e-01,2.12e+02
+finding solution of system of 30 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 20.789314
+         Iterations: 5
+         Function evaluations: 8
+         Gradient evaluations: 8
+obtained train accuracy of 1.0
+circles,passive,30,extr,0.00e+00,0.00e+00,9.99e-11,1.10e-10,1.37e-09
+circles,passive,30,base,7.62e-02,5.15e-02,4.89e-01,4.89e-01,4.81e+02
+finding solution of system of 60 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 41.577142
+         Iterations: 5
+         Function evaluations: 9
+         Gradient evaluations: 9
+obtained train accuracy of 1.0
+circles,passive,60,extr,0.00e+00,0.00e+00,6.27e-13,6.25e-13,3.73e-12
+circles,passive,60,base,2.80e-03,3.33e-03,4.92e-01,4.92e-01,2.46e+03
+finding solution of system of 150 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 103.941938
+         Iterations: 5
+         Function evaluations: 9
+         Gradient evaluations: 9
+obtained train accuracy of 1.0
+circles,passive,150,extr,0.00e+00,0.00e+00,2.95e-11,3.29e-11,4.23e-10
+circles,passive,150,base,5.20e-03,7.49e-03,4.92e-01,4.92e-01,2.93e+03
+finding solution of system of 300 equations with 3 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 207.884345
+         Iterations: 6
+         Function evaluations: 10
+         Gradient evaluations: 10
+obtained train accuracy of 1.0
+circles,passive,300,extr,0.00e+00,0.00e+00,1.11e-09,1.23e-09,1.55e-08
+circles,passive,300,base,1.40e-03,1.01e-03,4.92e-01,4.91e-01,2.03e+03

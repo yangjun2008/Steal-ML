@@ -1,0 +1,68 @@
+training accuracy: 0.9992
+Counter({2: 1668, 1: 1667, 0: 1665})
+dataset,method,budget,mode,loss,loss_u,probas,probas_u,model l1
+blobs,passive,4,extr,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+blobs,passive,4,base,1.00e+00,1.00e+00,1.00e+00,1.00e+00,1.00e+00
+finding solution of system of 9 equations with 9 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 4.021512
+         Iterations: 27
+         Function evaluations: 28
+         Gradient evaluations: 28
+obtained train accuracy of 1.0
+blobs,passive,9,extr,0.00e+00,0.00e+00,1.03e-07,4.09e-07,7.93e-05
+blobs,passive,9,base,1.46e-01,1.74e-01,8.53e-01,8.73e-01,1.32e+02
+finding solution of system of 18 equations with 9 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 3.719589
+         Iterations: 32
+         Function evaluations: 33
+         Gradient evaluations: 33
+obtained train accuracy of 1.0
+blobs,passive,18,extr,0.00e+00,0.00e+00,1.05e-08,6.10e-08,9.85e-06
+blobs,passive,18,base,5.90e-02,1.48e-01,9.39e-01,8.52e-01,8.25e+02
+finding solution of system of 45 equations with 9 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 9.028848
+         Iterations: 31
+         Function evaluations: 33
+         Gradient evaluations: 33
+obtained train accuracy of 1.0
+blobs,passive,45,extr,0.00e+00,0.00e+00,1.65e-09,6.54e-09,2.12e-06
+blobs,passive,45,base,3.60e-03,4.43e-02,9.93e-01,9.54e-01,7.02e+02
+finding solution of system of 90 equations with 9 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 19.343703
+         Iterations: 32
+         Function evaluations: 35
+         Gradient evaluations: 35
+obtained train accuracy of 1.0
+blobs,passive,90,extr,0.00e+00,0.00e+00,2.44e-09,1.37e-08,1.80e-06
+blobs,passive,90,base,2.00e-04,1.42e-02,9.92e-01,9.62e-01,1.93e+03
+finding solution of system of 180 equations with 9 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 37.775836
+         Iterations: 33
+         Function evaluations: 35
+         Gradient evaluations: 35
+obtained train accuracy of 1.0
+blobs,passive,180,extr,0.00e+00,0.00e+00,7.04e-10,6.30e-09,6.23e-07
+blobs,passive,180,base,4.00e-04,1.31e-02,9.92e-01,9.55e-01,8.29e+03
+finding solution of system of 450 equations with 9 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 101.793721
+         Iterations: 39
+         Function evaluations: 42
+         Gradient evaluations: 42
+obtained train accuracy of 1.0
+blobs,passive,450,extr,0.00e+00,0.00e+00,1.17e-10,3.56e-10,4.61e-08
+blobs,passive,450,base,2.00e-04,1.11e-02,9.91e-01,9.52e-01,5.32e+03
+finding solution of system of 900 equations with 9 unknowns with BFGS
+Optimization terminated successfully.
+         Current function value: 196.509915
+         Iterations: 38
+         Function evaluations: 42
+         Gradient evaluations: 42
+obtained train accuracy of 1.0
+blobs,passive,900,extr,0.00e+00,0.00e+00,1.83e-10,8.77e-10,1.56e-07
+blobs,passive,900,base,0.00e+00,1.59e-03,9.92e-01,9.57e-01,1.88e+05
