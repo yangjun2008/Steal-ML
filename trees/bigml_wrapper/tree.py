@@ -21,7 +21,7 @@ import json
 
 
 STORAGE = '../data/bigml_models'
-BB_KEY = "238d786823e79fe6de425c9732c928ebb86f6351"
+BB_KEY = "dc1f158d9a99ffec36ae6b70712992686f8498be"
 
 
 class BigMLTreeExtractor(TreeExtractor):
@@ -48,7 +48,7 @@ class BigMLTreeExtractor(TreeExtractor):
             # checks
             try:
                 self.model = Model('model/{}'.format(self.model_id),
-                                   api=BigML(username='ftramer2',
+                                   api=BigML(username='yangjun2008',
                                              api_key=BB_KEY))
             except ValueError:
                 self.model = Model('public/model/{}'.format(self.model_id),
@@ -88,16 +88,17 @@ class BigMLTreeExtractor(TreeExtractor):
 
     def make_prediction(self, query):
         if not self.black_box:
+            query.update(confidence=True,
+                         robability=True,
+                         path=True,
+                         next=True)
             res = self.model.predict(query,
-                                     add_confidence=True,
-                                     add_distribution=True,
-                                     add_path=True,
-                                     add_next=True)
+                                     full=True)
 
             # simulate the "fields" information in the prediction response
             features = get_features_on_prediction_path(res['path'])
             features = features.union(set(query.keys()))
-            if res['next']:
+            if res.get('next'):
                 features = features.union(set([str(res['next'])]))
 
             res_id = LeafID(res['prediction'], res['confidence'],
@@ -119,7 +120,8 @@ class BigMLTreeExtractor(TreeExtractor):
             res = r.json()
             fields = [str(f['name']) for (k, f) in res['fields'].iteritems()
                       if k != res['objective_field']]
-            res_id = LeafID(res['prediction'].values()[0], res['confidence'],
+            #res_id = LeafID(res['prediction'].values()[0], res['confidence'],
+            res_id = LeafID(res['prediction'].values()[0], res['probabilities'],
                             self.rounding, fields)
             logging.info('{}'.format(res_id))
 
@@ -202,7 +204,6 @@ def main():
         sum([len(x) for x in all_leaves.values()]), len(all_leaves))
     print 'Extraction required {} queries'.format(budget)
     print 'Extraction took %.2f seconds' % (end_time - start_time)
-    asdf
 
     leaves_with_paths = ext.get_leaves()
     leaves = [l for (l, _) in leaves_with_paths]

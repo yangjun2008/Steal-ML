@@ -1,6 +1,7 @@
 SHELL := /bin/bash
 
 DATA=tax steak gss email spam med_price bitcoin credit
+DATA_TAX=tax
 
 EXP_DIR=experiments
 
@@ -29,6 +30,12 @@ top:
 		$(MAKE) DATA=$$data OPTIONS='--top' $(EXP_DIR)/$$data.top.out ; \
 	done
 
+tax_top:
+	mkdir -p $(EXP_DIR)
+	for data in $(DATA_TAX) ; do \
+		$(MAKE) DATA=$$data OPTIONS='--top' $(EXP_DIR)/$$data.top.out ; \
+	done
+
 top_rounding:
 	mkdir -p $(EXP_DIR)
 	for round in $(ROUNDINGS) ; do \
@@ -37,9 +44,10 @@ top_rounding:
 		done \
 	done
 
+clean: clean_top clean_bottom
 
 clean_bottom:
-	rm -f $(EXP_DIR)/*_bottom.out
+	rm -f $(EXP_DIR)/*bottom.out
 
 clean_top:
-	rm -f $(EXP_DIR)/*_top.out
+	rm -f $(EXP_DIR)/*top.out
